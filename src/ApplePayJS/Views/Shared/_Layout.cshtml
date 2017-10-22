@@ -1,11 +1,11 @@
-﻿@*
-    Copyright (c) Just Eat, 2016. All rights reserved.
+@*
+    Copyright (c) GlobalKnowledge. All rights reserved.
     Licensed under the Apache 2.0 license. See the LICENSE file in the project root for full license information.
 *@
 <!DOCTYPE html>
 <html lang="@(Context.Request.Query["lang"].FirstOrDefault() ?? "en")">
 <head>
-    <title>@ViewData["Title"] - Apple Pay JS</title>
+    <title>@ViewData["Title"] - CHASE Apple Pay JS</title>
     <meta charset="utf-8" />
     <meta name="theme-color" content="#ffffff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1" />
@@ -30,12 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Apple Pay JS</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">CHASE Apple Pay JS</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://github.com/justeat/ApplePayJSSample" rel="noopener" target="_blank">This repository on GitHub</a></li>
-                    <li><a href="https://developer.apple.com/reference/applepayjs/" rel="noopener" target="_blank">Apple Pay JS Documentation</a></li>
+                    <li><a href="https://github.com/justeat/ApplePayJSSample" rel="noopener" target="_blank">CHASE</a></li>
+                    <li><a href="https://developer.apple.com/reference/applepayjs/" rel="noopener" target="_blank">CHASE INK</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +44,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>Copyright &copy; Just Eat, 2016-@DateTimeOffset.UtcNow.Year. All rights reserved.</p>
+            <p>Copyright &copy; GlobalKnowledge-@DateTimeOffset.UtcNow.Year. All rights reserved.</p>
         </footer>
     </div>
 

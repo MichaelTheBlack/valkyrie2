@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  applepayjs:
+    image: applepayjs
+    build:
+      context: ./src/ApplePayJS
+      dockerfile: Dockerfile

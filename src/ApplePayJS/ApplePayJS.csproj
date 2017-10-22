@@ -22,6 +22,7 @@
     <UserSecretsId>JustEat.ApplePayJS</UserSecretsId>
     <VersionPrefix>2.0.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <ItemGroup>
     <Content Update="*.pfx" CopyToPublishDirectory="PreserveNewest" />
